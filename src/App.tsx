@@ -1,7 +1,3 @@
-/*
-* This file demonstrates a basic ReactXP app.
-*/
-
 import RX = require('reactxp');
 
 const styles = {
@@ -21,9 +17,6 @@ const styles = {
 class App extends RX.Component<null, null> {
     constructor() {
         super();
-
-
-
     }
 
     render(): JSX.Element | null {
